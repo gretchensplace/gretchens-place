@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gretchen's Place</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f8f5f2;
+      color: #2f2a26;
+      line-height: 1.6;
+    }
+
+    .hero {
+      background: linear-gradient(to bottom right, #f8dfe5, #fffaf6);
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 1px solid #e8d9d0;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.2rem;
+    }
+
+    .tagline {
+      display: inline-block;
+      background: #fff;
+      border: 1px solid #e4c9d2;
+      padding: 8px 14px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      background: white;
+      padding: 32px;
+      border-radius: 18px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 2rem;
+      color: #3a2f2a;
+    }
+
+    h3 {
+      margin-bottom: 8px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .card {
+      background: #fcf9f7;
+      border: 1px solid #eee2db;
+      border-radius: 14px;
+      padding: 18px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .faq-item {
+      margin-bottom: 22px;
+    }
+
+    form label {
+      display: block;
+      margin-top: 14px;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input, select, textarea, button {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px;
+      border: 1px solid #ccbfb7;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-family: inherit;
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 18px;
+      background: #3b2f2a;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.92;
+    }
+
+    .small {
+      font-size: 0.95rem;
+      color: #5f534d;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px 20px 50px;
+      color: #6a5c55;
+    }
+
+    .success-message {
+      display: none;
+      margin-top: 16px;
+      padding: 14px;
+      border-radius: 10px;
+      background: #edf8ef;
+      border: 1px solid #b7d8be;
+      color: #2f5a37;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="tagline">Independence, friendship, and mutual support for the next chapter of life</div>
+    <h1>Gretchen's Place</h1>
+    <p>A beautiful intentional community for independent women over 40 — a place where privacy, elegance, activity, friendship, and practical support come together in daily life.</p>
+  </div>
+
+  <div class="container">
+
+    <section>
+      <h2>Founder’s Story</h2>
+      <p>Hello, my name is Annie. I am 48 years old, have never been married, and do not have children. I do not really know how I ended up in this solo place. I suppose it is a long story, and parts of it are quite sad. But over the years I have come to realize that I am far from the only woman living a life that is independent, meaningful, and sometimes unexpectedly solitary.</p>
+
+      <p>This project is named Gretchen's Place in honor of my mother, Gretchen. On January 21, 2025, she was found dead in her apartment. Her death was completely sudden and shocking. We later realized she may have died several days before anyone knew something was wrong.</p>
+
+      <p>The last thing she searched on her phone was “heart attacks in women.” That detail has stayed with me. My siblings and I often think about how different things might have been if someone nearby had noticed something was wrong, checked in, or been able to respond quickly.</p>
+
+      <p>My mother was deeply loved. The elementary school where she worked dedicated a bench in her honor, and people travelled from around the world to attend her funeral. Yet even someone as loved and connected as she was still ended up facing a medical emergency alone.</p>
+
+      <p>I often enjoy the freedoms of living independently, but I also find myself wishing for something that many of us quietly long for: a circle of close neighbors who genuinely look out for one another. People who might notice if your lights have not turned on, who could bring soup when you are sick, or who would make sure you had a button to press if you ever thought you might be having a heart attack.</p>
+
+      <p>Gretchen's Place is my attempt to imagine a different model of living — one that preserves independence while surrounding it with friendship, safety, activity, and mutual care. The goal is not to dwell in sadness, but to build something joyful: a vibrant community where women can live beautifully, stay socially engaged, share meals, travel together, pursue hobbies, and know that someone nearby is always quietly looking out for them.</p>
+    </section>
+
+    <section>
+      <h2>The Vision</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Luxury living</h3>
+          <p>Thoughtful architecture, attractive grounds, high-quality finishes, and amenities that make daily life feel rich rather than institutional.</p>
+        </div>
+        <div class="card">
+          <h3>Intentional support</h3>
+          <p>A built-in culture of mutual aid, organized through a fair system that recognizes and values residents’ time and care.</p>
+        </div>
+        <div class="card">
+          <h3>Community spaces</h3>
+          <p>Shared dining, events, hobby rooms, wellness offerings, gardens, and gathering places that invite connection naturally.</p>
+        </div>
+        <div class="card">
+          <h3>Aging with dignity</h3>
+          <p>A long-range model designed to reduce isolation and help women remain supported through changing seasons of life.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What the Community Might Include</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Private homes</h3>
+          <p>Attractive private residences or cottages that provide autonomy, privacy, and personal space.</p>
+        </div>
+        <div class="card">
+          <h3>Shared gathering spaces</h3>
+          <p>Community dining rooms, gardens, lounges, and activity spaces that naturally encourage connection.</p>
+        </div>
+        <div class="card">
+          <h3>Wellness and safety</h3>
+          <p>Simple systems that help neighbors check in on one another and respond quickly in case of illness or emergency.</p>
+        </div>
+        <div class="card">
+          <h3>Mutual support system</h3>
+          <p>A fair, organized system where residents can earn tokens for helping one another and redeem them when they need help.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>How the Support System Could Work</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>1. Help a neighbor</h3>
+          <p>Provide a ride, run an errand, deliver a meal, check in during illness, or help with another approved task.</p>
+        </div>
+        <div class="card">
+          <h3>2. Earn tokens</h3>
+          <p>Receive community credit for your contribution according to transparent guidelines.</p>
+        </div>
+        <div class="card">
+          <h3>3. Use tokens later</h3>
+          <p>When you need support yourself, you can draw on the system and receive help in return.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Imagine Life Here</h2>
+      <p>The dream is not simply to create housing. It is to create a way of life that feels warm, active, beautiful, and secure.</p>
+      <ul>
+        <li><strong>Morning:</strong> A quiet walk on landscaped paths, coffee in your own kitchen, or breakfast with neighbors in a shared gathering space.</li>
+        <li><strong>Afternoon:</strong> Time for work, volunteering, reading, gardening, fitness classes, creative projects, or simply enjoying the privacy of your own home.</li>
+        <li><strong>Evening:</strong> Optional communal meals, film nights, book clubs, hobby groups, or spontaneous visits with women who know and care about one another.</li>
+        <li><strong>Always:</strong> The reassuring knowledge that while you live independently, you are not invisible. Someone nearby would notice if you needed help.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Founding Circle</h2>
+      <p>Gretchen's Place is still in the early vision stage. The next step is to gather a founding circle of women and supporters who want to help explore whether this dream can become a real community.</p>
+      <p>A founding circle could help shape key questions such as location, amenities, governance, affordability, land use, design, and the mutual support system. The goal is to begin not just with one person's idea, but with a shared vision developed by a strong early community.</p>
+
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Future resident</h3>
+          <p>You are interested in possibly living in a community like this one day.</p>
+        </div>
+        <div class="card">
+          <h3>Founding circle member</h3>
+          <p>You want to help shape the early vision and participate in future planning conversations.</p>
+        </div>
+        <div class="card">
+          <h3>Collaborator</h3>
+          <p>You have expertise in housing, design, law, aging, finance, or community-building.</p>
+        </div>
+        <div class="card">
+          <h3>Investor or donor</h3>
+          <p>You want to explore whether this vision could become a viable, transformative project.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3>Is this co-housing or cooperative housing?</h3>
+        <p>The vision is to create a new type of community together rather than fitting neatly into an existing label. It should not be imagined as a commune. The goal is to design something thoughtful, elegant, and carefully planned. We may ultimately simply call it “Gretchen’s Place” so that people approach the idea with fresh eyes rather than assumptions about what co-housing or cooperative housing means.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Where would the first Gretchen’s Place community be located?</h3>
+        <p>The long-term dream is that Gretchen’s Place could exist in many locations across the country. For the first community, however, we will have to make the decision based on practical and financial realities. Once there is a strong founding group, we could develop a short list of viable locations and allow the founding community to vote on where the first location should be built.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How would the token system work?</h3>
+        <p>The exact rules would be designed very carefully with input from the founding community. The general concept is loosely inspired by systems sometimes called mutual aid credit systems or time banks that already exist in some cooperative housing environments. Residents could earn tokens for helping neighbors with tasks such as rides, check-ins, errands, or other forms of support, and then redeem those tokens when they themselves need assistance.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Will Gretchen’s Place be affordable for women with different incomes?</h3>
+        <p>The long-term goal is to create a community that welcomes women across the income spectrum. In reality, early communities may initially be easier to build for women who have the financial means to participate in the first development. Over time, however, one of the guiding goals would be to explore ways to expand access so that Gretchen’s Place can become an open and inviting environment for women from many different backgrounds.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How can investors or donors get involved?</h3>
+        <p>If you are interested in helping explore whether this vision could become a real community, you are welcome to reach out directly.</p>
+        <p><strong>Email:</strong> annie@gretchensplace.org</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Join the Interest List</h2>
+      <p class="small">For now, this form will send submissions through Formspree.</p>
+
+      <form action="https://formspree.io/f/xlgprqan" method="POST">
+        <label for="firstName">First name</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last name</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="role">How do you see yourself?</label>
+        <select id="role" name="role">
+          <option>Potential resident</option>
+          <option>Interested in the founding circle</option>
+          <option>Potential collaborator</option>
+          <option>Potential investor or donor</option>
+          <option>Just curious and want updates</option>
+        </select>
+
+        <label for="location">Where are you located?</label>
+        <input type="text" id="location" name="location">
+
+        <label for="infoSession">Would you attend a future info session?</label>
+        <select id="infoSession" name="infoSession">
+          <option>Yes, definitely</option>
+          <option>Possibly</option>
+          <option>Not sure yet</option>
+        </select>
+
+        <label for="interest">What interests you most about this idea?</label>
+        <textarea id="interest" name="interest"></textarea>
+
+        <input type="text" name="_gotcha" style="display:none">
+
+        <button type="submit">Join the Interest List</button>
+      </form>
+    </section>
+
+  </div>
+
+  <div class="footer">
+    Gretchen's Place — a new model of home, support, and belonging
+  </div>
+
+</body>
+</html>
